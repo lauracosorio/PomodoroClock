@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    background-color:  rgb(238, 188, 51);
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+}
+
+button {
+    background-color: rgb(238, 188, 51);
+    font-size: 16px;
+    border: none;
+    color: white;
+}
+
+/* button:hover {
+    font-size: 30px;
+    color: grey;
+} */
+
+.break-session {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.session {
+    
+    margin: auto;
+   
+}
+
+.session-buttons {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.sessionsum {
+    font-size: 30px;
+}
+
+.sessionsum:hover {
+    font-size: 40px;
+    color: rgb(63, 88, 88);
+}
+
+.sessionrest {
+    font-size: 30px;
+}
+
+.sessionrest:hover {
+    font-size: 40px;
+    color: rgb(63, 88, 88);
+}
+
+.break {
+    margin: auto;
+}
+
+.breaksum {
+    font-size: 30px;
+}
+
+.breaksum:hover {
+    font-size: 40px;
+    color: rgb(63, 88, 88);
+}
+
+.breakrest {
+    font-size: 30px;
+}
+
+.breakrest:hover {
+    font-size: 40px;
+    color: rgb(63, 88, 88);
+}
+
+.breakrest, .breaksum, .sessionsum, .sessionrest, .reset-button, .start-button:focus {
+    outline: none;
+}
+
+
+.break-buttons {
+display: flex;
+justify-content: space-between;
+font-size: 20px;
+}
+
+.timer {
+    border: 4px solid white;
+    width: 200px;
+     height: 200px;
+     border-radius: 50%;
+     -webkit-border-radius: 50%;
+     margin: 0 auto;
+     font-size: 35px;
+}
+
+.controls {
+    margin-top: 20px;
+    justify-content: space-between;
+    
+}
+
+.start-button {
+    padding: 0px 20px;
+    font-size: 25px;
+}
+
+.start-button:hover {
+    padding: 0px 20px;
+    font-size: 28px;
+    color: rgb(63, 88, 88);
+}
+
+.reset-button {
+    padding: 0px 20px;
+    font-size: 25px;
+}
+
+.reset-button:hover {
+    padding: 0px 20px;
+    font-size: 28px;
+    color: rgb(63, 88, 88);
+}
